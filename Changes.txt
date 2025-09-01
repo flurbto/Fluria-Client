@@ -1,0 +1,230 @@
+v3.2.5 [25 June 2025]
+[Additions]
+[+] Options:
+	- Added alternative video options style: Sodium. (Especially for Vibrant Visuals)
+		NOTE: Some things aren't complete yet, all that's left is to add more language support. That will be in the future.
+[Changes]
+[*] Global:
+	- Updated only for v1.21.90.
+[*] Options:
+	- Revision of rendering options.
+	- Removed some useless options.
+	- Dropdown panel content now has a different design.
+[*] Pause/Game Menu:
+	- Added Realms Feed, only appears if you are in realms world.
+[*] HUD:
+	- It is now possible to modify alpha values ​​of some text background using options.
+
+v3.2.4 [03 April 2025]
+[Additions]
+[+] Inventory:
+	- Revised version of smelt recipe book concept (Furnace, Blast Furnace, and Smoker), with two new item recipes added.
+		Only in Desktop UI. For Mixed UI, and, PvP UI coming soon...
+[*] Pause:
+	- Added pause announcement text.
+[Removed]
+[-] Unfortunately, "Play" screen will automatically be removed permanently because the new Ore UI screen is already implemented in BE v1.20.60.
+[Changes]
+[*] Global:
+	- Updated only for v1.21.70 and partially v1.21.80 Beta/Preview.
+	- Added new left stick directions for tooltip controller textures.
+	- Updated Dualsense tooltip controller textures.
+[*] HUD:
+	- Fixed visual bug when using with aspects in "The Hive" server, again...
+[*] Options:
+	- Changed graphics mode toggle to dropdown.
+
+v3.2.3 [12 January 2025]
+[Additions]
+[+] Options:
+	- Added the remaining options for v1.21.60 Beta/Preview.
+[Changes]
+[*] Global:
+	- Toast panel (notification) is now in place correctly (offset value).
+	- Fixed remaining visual bugs when using with Aspects, the panels in HUD now shows correctly, even in The Hive Server.
+[*] Options:
+	- Fixed/updated total key binds list, for standard keyboard and full keyboard.
+[*] Inventory:
+	- Updated total recipe pages for v1.21.50+.
+
+v3.2.2 [8 December 2024]
+[Additions]
+[+] Options:
+	- Added the remaining options in v1.21.50.
+
+[Changes]
+[*] Global:
+	- Updated only for v1.21.50 and partially v1.21.60 Beta/Preview.
+[*] HUD:
+	- Fixed a bug where health, hunger and armor values were duplicated when playing on the Hive server.
+[*] Inventory:
+	- Fixed a bug where the tooltip background would not disappear when used on phones.
+
+v3.2.1 [1 December 2024]
+[Hotfix]
+[*] HUD:
+	- Fixed a bug where paper-doll renderer and mob effect panel didn't appear when using desktop mode in touch.
+	-	Fixed a bug that caused a normal scoreboard to appear on the Hive server.
+
+[Changes]
+[*] HUD:
+	- Chat messages now fade correctly as Java Edition. (Thanks "oakvolf" for the information!)
+	- The text of titles and subtitles has been modified again with some compatibility improvements for featured servers.
+	- Text background texture now is completely opaque, but remains semi-transparent
+		in the UI settings (some objects won't work in main settings).
+
+Note: There is still some work to be done on the HUD for compatibility on third party servers, I'll figure out how later.
+
+v3.2.0 [27 November 2024]
+[Additions]
+[+] Added completed version of bundle tooltip, with v1.21.4-pre appearance textures.
+[+] Added new GUI textures from latest JE version.
+	- Some GUI textures have been moved to new directory according from JE official changes.
+
+[Removed]
+[-] Removed some UIDX textures due new JE GUI textures added.
+
+[Changes]
+[*] Global:
+	- Updated only for v1.21.40 and partially v1.21.60 Beta/Preview.
+	- Important bug fixes when using Java and Console Aspects, now requires only v6.0+.
+[*] Options:
+	- Fixed a bug that caused a crash when opening the screen.
+[*] HUD:
+	- Fixed a bug where hotbar and some renderer bars didn't appear when using desktop mode in touch.
+
+Note for Mixed UI: In order to fix the issue in recipe book, I have removed and
+replaced the grid item method.
+
+v3.1.1 [18 August 2024] (Revised in 19 August 2024)
+
+[Hotfix]
+[*] The compass icon in the search tab of the Creative Inventory should be displayed correctly...
+		But, in the beta/preview, it will display correctly when used with experimental bundle enabled.
+[*] Added screenshot button in Pause screen, only visible in Beta/Preview.
+
+[Additions]
+[+] Added bundles support for experimental purposes! (Partially, only in v1.21.30 beta/preview)
+
+[Changes]
+[*] Global:
+	- Updated only for v1.21.20 and v1.21.30 Beta/Preview.
+[*] Play:
+	- Singleplayer and Multiplayer menus are now individual, separate as Java Edition, except for Realms...
+	- If you want to access Realms, just click on the upper right button of the multiplayer section.
+[*] HUD:
+	- The number of days played panel in the HUD should now appear in both the Release and Beta/Preview versions...
+[*] Options:
+	- Fixed a bug where some options didn't appear because it was assigned for beta/preview.
+	- Added remaining options from v1.21.0 Release and v1.21.30 beta/preview.
+[*] Progress:
+	- Fixed a bug where required resource pack pop-up didn't appear in that version.
+
+v3.1.0 [26 June 2024]
+
+[Additions]
+[+] PvP UI will now be implemented as a separate pack.
+[+] HUD:
+	- Added number of days played panel in HUD. (Enabled by gamerule)
+
+[Changes]
+[*] Global:
+	- Updated for v1.21.0.
+[*] Options:
+	- Added 1 more gamerule toggle (number of days played).
+	- Added reflections slider option for deferred sections.
+	- Modified scroll menu top and bottom panel size, to match JE current version.
+[*] Progress:
+	- Added animated portal BG when entering Nether. (For The End will be added in the next version)
+
+v3.0.2 [21 March 2024]
+
+[Additions]
+[+] Mixed UI will now be implemented as a separate pack.
+
+[Removed]
+[-] Unfortunately, "You died!" screen will automatically be removed permanently because the new Ore UI version will be implemented in BE v1.20.80.
+
+[Changes]
+[*] Play:
+	- Fixed a bug where the panel content offset was incorrect in Minecraft Realms.
+[*] Progress:
+	- Change the size of loading percentage square in order to match the JE v1.20.5 snapshot.
+	- Change the layout of the online warning screen to match the JE v1.20.5 snapshot.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+v3.0.1 [10 March 2024]
+[Changes]
+[*] HUD:
+	- Height limit texts now appear as action bar text instead of chat messages, thanks @agentms_ :D!
+[*] Progress:
+	- Fixed a bug where progress_popup was not appearing as expected when joining a server.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+v3.0.0 [29 February 2024]
+
+Note: Initial changes from previous generation.
+
+However, it is not a big deal, it is just a small improvement than the previous version
+with the new GUI system based on JE 1.20.2.
+
+This is just a new beginning...
+
+[Additions]
+[+] New GUI Texture System from JE 1.20.5 Snapshots, but no every texture can have
+		desired resolution automatically, still, you must review "_global_variables.json"!
+[+] Crafter Redstone Screen (From 1.21 Snapshots).
+[+] Customize Touch Controls (Experimental).
+
+[Temporarily Removed]
+[-] Legacy container screens (Villager v1 and Smithing Table v1)
+[-] Realms Sections
+Note: These screens will be back in the next update, otherwise... Ore UI version is probably implemented... D:
+
+[Changes]
+[*] Global:
+	- To avoid errors when customizing touch controls, "$show_hud_while_inventory" in "_global_variables.json"
+		is now disabled by default. I hope you understand! >_<
+	- GUI Menu background texture is now darkened panel instead dirt block. However, with exception of menu scroll list,
+	  full BG menu it's only limited for pre-game.
+	- And speaking of this, for the moment the options menu design will remain similar to JE v1.20.3 with new integrated textures.
+[*] Files:
+	- The VDX custom UI data and textures are now only located in the "/uidx" folder.
+[*] Progress:
+	- File upload and download screen panels, including modals, are now fully centered.
+[*] HUD:
+	- Bed messages now appear as action bar text instead of chat messages, with the help of @agentms_.
+		In the next version I will bring height limit texts in the action bar! ;D
+[*] Chat:
+	- On the chat screen, main BG are now in each message grid panel instead of the full scroll panel, to match the Java edition.
+[*] Beacon Desktop:
+	- Changed Diamond and Emerald icon offsets to match Java Edition.
+	- The hover text panel for the confirm and cancel buttons has now been removed as it is no longer in Java Edition.
+[*] Inventory with Recipe Book Desktop:
+	- Fixed a bug when selecting a recipe while using controller cursor.
+	- Selected recipe even if there's no ingredients to craft, the texture now is the same as red one.
+	- Creative category text no longer appears in hover text panel.
+[*] Smithing Table:
+	- Input items overlay icons now have the same animations from Java Edition.
+[*] Add External Server:
+	- Text field option size is now between X=200 and Y=20, in order to match Java Edition.
+	- Main Panel now re-modified with support for small phones.
+[*] Command Block:
+	- Text field option size is now between X=276 and Y=20, in order to match Java Edition.
+	- Help texts removed, something new will be added in the future.
+	- Added autocomplete buttons, but only for touch screens.
+[*] Structure Block:
+	- Text field option size is now between X=80 and Y=20, and for structure name, X=300 and Y=20, in order to match Java Edition.
+[*] Death:
+	- Re-named quit button text to "Title Screen", and the confirm popup panel is now different based from Java Edition.
+	- But the main panel can't be hidden while confirm panel is shown... Sorry... :(
+[*] Play:
+	- Grid items are now improved! Making better support for controller.
+[*] Options:
+	- Controls options now have different sections depending which method do you use.
+	- Now, some options like "Subscription", "Server" or other things that were in the top right are now invisible, but still accessible.
+[*] Credits:
+	- It has been updated, now the texts are based on Java Edition (in fact, it also has on Bedrock),
+		but the data is now heavier! (More testing is still needed)

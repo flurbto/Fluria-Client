@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Fluria Client v1.0.5 [BETA]",
+    "description": "© Fluria Client | All rights reserved | MCBE v1.21.90+ 
+Enhance your Minecraft Bedrock gameplay with Modules and Extension but also allow Modders to create their own Extension too!! | Based on Latite Client",
+    "uuid": "757a4140-bce4-4874-b1bf-244c0e83feea",
+    "version": [ 1, 0, 5 ],
+    "min_engine_version": [ 1, 21, 90 ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "7706d52d-f2e1-4557-9e4c-dd4289d7c8ff",
+      "version": [ 1, 0, 5 ]
+    }
+  ],
+  "metadata" : {
+    "authors" : [ "VIBROX" ],
+    "url" : "youtube.com/@im_not_vibrox?si=d3Mpx_wS0airPJ_O"
+  }
+}

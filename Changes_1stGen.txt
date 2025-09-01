@@ -1,0 +1,384 @@
+v1.10.2 (Bugfixes for v1.16.100) [30/11/2020]
+-Changed close button for inventory.
+-The chat position in HUD will now always be at the bottom, even if you are using touch device.
+-Fixed visual bugs in HUD (Red lock flag).
+-Re-added the "online_safety_dialog" screen with a new more accurate Java Edition design.
+-Added new options exclusively for Beta v1.16.200:
+    ▪️ New sounds slider options.
+    ▪️ RTX toggle options (Only available for dedicated graphics cards)
+-Added new dedicated buttons for touch devices to the chat screen:
+    ▪️ The two following autocomplete buttons will only show when "cheats" is "ON".
+
+v1.10.1 (Bug fixes only) [31/10/2020]
+-Added locked scroll box for creative screen.
+-Added Fate Client compatibility! (Only for Win10)
+-Gamepad tooltip texture redrawn now appears in "font/glyph_E0.png". But not all...
+-Added HUD compatibility for the Hive Server with custom scoreboard layout, but not all...
+-Removed the Furnace Recipe Book concept due to item renderer issues.
+-Removed "online_safety_dialog" panel in progress_screen due to add-ons required to join issues (in beta also).
+-Removed the ability of the HUD be visible if opens inventory and other screens,
+ because not all have a option about Screen Animations.
+-Bottom Chat now has effect only when you use keyboard and mouse, even controller. No more in touch device.
+
+v1.10.0 [11/07/2020]
+-Some UI codes has beed rewritten and optimized.
+-Added new plugins for Java UI:
+    ▪️ Original Textures, useful for marketplace textures.
+-Added new compatibility for Java UI:
+    ▪️ AgentMindStorm's Music+/Music Player UI Lite Resource Pack! ;D
+-Added new screens (and fixed UI):
+    ▪️ Storage Management (Fixed)
+    ▪️ Profile and Persona Screen (New Skin Editor)
+    ▪️ Credits (Fixed)
+    ▪️ Jigsaw Screen (New)
+    ▪️ Smithing Table (New)
+-Added more compatibility for text speech UI.
+-Added more compatibility for Gamepad use.
+-Removed some "textures/uidx" images:
+    ▪️ classic_loading_bar.png or java_loading_bar.png (Replaced by label animation with text from glyph 2582 to 2588)
+    ▪️ portal_background.png
+-Added new "textures/uidx" images:
+    ▪️ highlight_slot_red.png and highlight_slot_red_output.png (to make a bit more accurate Java UI)
+    ▪️ world_loading_bar_full.png (a vertical animation flipbook texture, just a concept loading bar)
+-Modified some UI screens:
+    ▪️ Profile setings screen
+    ▪️ Create world (Modifyng gamerule screen based from 1.16 Java edition)
+-For reasons of undoing visual bugs on some screens, I have decided to remove the list of textures that automatically
+ detect resolution size:
+    ▪️ "widgets.png"
+    ▪️ "title/minecraft.png"
+-HUD Screen has been improved (to make a bit more accurate Java UI):
+    ▪️ The popup text of Jukebox now has a RGB effect!
+    ▪️ The event/boss bars now use the "bars.png" texture and different colors are used depending on:
+        ▪️ For Ender Dragon it will use maguenta, Wither will use purple, and Raid will use red with separator textures.
+        ▪️ The red bar with separator (Raid) will be also used by default in case they are not normal events/bosses of the game,
+          for example, if you join on any server, the bar will be used in red. Later I will change it in another color.
+-Banner (Loom)/Stone (Stonecutter) type selection textures will now display correctly even if you move the selected
+ grid away from the mouse.
+-Improved Play_Screen:
+    ▪️ Now you can double click on the grid to play your world or any server on the list, and even friends and lan worlds.
+    ▪️ Now you can click on the grid of friends and lan worlds and confirm by clicking "Join Server",
+      but you will not be able to edit it (obviously).
+    ▪️ The ping_rate textures will now be used correctly with the "icons.png" texture.
+
+v9.0.0 [31/10/2019]
+-Rewritten some UI codes.
+    ▪️ Start screen
+    ▪️ Play screen
+    ▪️ Pause screen
+-Added more compatibility for gamepad.
+-Added modified Chat settings UI.
+-Play screen now has 3 tabs:
+    ▪️ Select World, Play Multiplayer, and Realms.
+    ▪️ And, Added new method about how will you select or edit your worlds, but is limited for 75,
+      and others will be 5, 10, and 15. But except for some items.
+      But, don't worry, it will add an additional button to change between play mode
+      or edit mode for some reasons (except for realms tab) ;)
+-Added new modified screens:
+    ▪️ Credits
+    ▪️ Realms settings
+-Added cross image with hover text for trade v2.
+-Added Gamepad tooltip texture redrawn for PS4 Controller/Sony DualShock 4!
+ Original redrawn/revamp by AgentMindStorm/@agentms_!
+-Bottom buttons in start and pause screen now uses widgets.png texture!
+-Added scoreboard support for player list in pause screen.
+-Llama chest grid images now shows properly!
+-Some screens will not be affected by screen safe area changes.
+-Modified normal font based from Java Edition 1.14.
+-Added QuickCraft feature, original by abc555, only will be available in touch device.
+
+v8.1.0 [05/08/2019]
+-Added new modified screens:
+    ▪️ Structure Block
+-Removed the concept Recipe book for Furnace (Also Blast Furnace and Smoker), due item renderer issues.
+-Changes and bugfixes for HUD Screen:
+    ▪️ Modified line padding for chat messages to match like Java Edition.
+    ▪️ Modified chat UI will now appear even if you use touch device!
+    ▪️ Now the popup text of Jukebox appears!
+-Some Java UI screens now appears even if you use pocket UI profile, except for inventory screens.
+-Changes for GUI textures templates:
+    ▪️ A lot of UI codes was removed and optimized for widgets.png (Main buttons).
+-Added More Java UI to main pack with following modified screens:
+    ▪️ Settings
+    ▪️ Play
+    ▪️ Add External Server
+    ▪️ Create/Edit World
+    ▪️ And more...
+
+v8.0.0 [11/02/2019]
+-Updated for 1.10.0 oficial! Also it will work for 1.11.0.X Beta!
+-Added new modified screens:
+    ▪️ Book
+    ▪️ Loom
+    ▪️ blast furnace
+    ▪️ smoker
+    ▪️ grindstone
+    ▪️ stonecutter
+    ▪️ cartography table
+    ▪️ trade v2
+-XP number in HUD screen wiil now show even if you use with Java Aspects Resource Pack by AgentMindStorm (@agentms_).
+-New design for "progress_screen", based in 1.14 Java UI (but concept).
+-New directory for Java GUI textures! Now the GUI textures will be read in "assets/minecraft/textures".
+    -Updated GUI templates, now no longer needs HD GUI template add-on, because HD GUI Textures now adjusts automatically!
+     Well, with the exception of the following files (To avoid bugs):
+        ▪️ menu_background
+        ▪️ portal_background
+        ▪️ blocks_Background
+        ▪️ bars
+        ▪️ blast_Furnace
+        ▪️ brewing_Stand
+        ▪️ furnace
+        ▪️ icons
+        ▪️ smoker
+        ▪️ villager2
+     The resolution modifications of these files can now be adjusted manually in global_variables.json!
+-Added new add-on: More java UI Beta!
+    -It include the following modified screens: Settings ▪️ play ▪️ add external server ▪️ create/edit world and more!
+-Updated pause screen.
+    -Added new design for player list, now looks like Java edition.
+-Recipe book UI imporved for crafting/inventory screen!
+    -And, added an concept recipe book for furnace!!!
+
+
+v7.0.0 [21/10/2018]
+-Updated for 1.7.0 oficial! Also it will work for 1.8.0.10 Beta!
+-Some bugfixes.
+-Alt Chat Screen will now appear if you use mouse and keyboard, or XB1 controller.
+-Now supports HD GUI Templates: 2048x.
+-Changes about Command Block UI.
+
+v6.1.0 [23/09/2018]
+-Added new java gui templates to port easily to Bedrock: "title/minecraft.png" and "title/edition.png",
+-Added Java panorama overlay for Start_Screen.
+-Now supports HD GUI Templates: 512x and 1024x.
+
+v6.0.0 [31/08/2018]
+-Updated for 1.6.0 oficial! And yes, also it will work for 1.7.0.3 Beta!
+    -Because I've added a new modified UI object: Scoreboard, with Java design appearance! ;D
+-Added new modified UI screen: Command Block.
+-Source code will be closed for now.
+-Added new java gui templates to port easily to Bedrock: "widgets.png" and "icons.png"
+    -Just for buttons, hotbar and Experience Bar.
+
+v5.1.0 [03/08/2018]
+-Updated for 1.5.2 oficial. And no, sorry, but it won't work for 1.6.0.8 Beta.
+-Java Creative Screen UI now shows scroll_box in touch mode (Android or iOS).
+-Updated Anvil UI container.
+-All UI files won't work if you use modified APK or APPX (Pirate modification). Not yet, fixing ;-;
+-Tweaks for some UI screens.
+-Tweak inventory button to make invisible, but still works!
+
+v5.0.0 [15/07/2018]
+-Updated to 1.5.0 oficial and maybe will work for 1.6.0.6 Beta.-Bugfixes
+    -"progress_screen" now will show all different screens: loading, dimension and saving.
+    -"shulker_box" now have original size to [ 176, 166 ], while "ender_chest" still have [ 176, 167 ].
+    -"sign_screen" now you can press enter to write text in next line without close.
+-Tweaks
+    -Re-Name from "New UI" to "Modern New UI"
+    -Re-worked Recipe book and creative for Modern New UI type, to look more like between Java and Bedrock Default.
+    -Re-worked "cell_red" for Java inventory UI.
+    -Removed help button for Java UI type.
+    -Close button now will hide only if you use a gamepad.
+    -Added new sounds for Enchanting Table UI, to make more Java Edition experience! (I hope the devs will add to official feature soon!)
+
+v4.2.0 [18/06/2018]
+-Updated to 1.4.4 oficial and 1.6.0.1 Beta.
+-Some bugfixes.
+-Added more Gamepad tooltip texture redrawn for Generic and Switch Controller! Original redrawn/revamp by AgentMindStorm/@agentms_!
+-Modified "container_items" can be choose now between Java UI and New UI using "subpacks".
+-Upgraded "Container_items" for both recipe book UI styles, making a bit translucent an item when is item holder red (not enough resources to craft).
+-"progress_screen" UI is now back! I think it was my mistake because of the misunderstanding. Thanks HawfHuman ^-^
+
+v4.1.0 [02/06/2018]
+-Changed UI chooser from New UI to Java UI, using "subpacks".
+-Added Edition logo visible! You can disable modifying "_global_variables.json".
+-Removed some options and added new options for "_global_variables.json".
+-Removed HLSL Shaders, will be separated for other pack.
+
+v4.0.0 [17/05/2018]
+-Updated to 1.4.0 oficial and 1.5.0 Beta.
+-Due to annoying bug about some UI Json codes that doesn't apply changes, i dont know if were accident or
+ were purpose from developers (Mojang/Microsoft), modified UI "progress_screen" were removed.
+-Some bugfixes.
+-Changed new recipe book and full creative toggles textures. Original Design by @ZouChenyunfei!
+-Changed Gamepad tooltip texture. Original redrawn/revamp by AgentMindStorm/@agentms_!
+-Bonus: Added Win10 Shader (HLSL) for Java visuals: water, entities and cloud shader. Original GLSL by @agentms_, @HawfHuman and @ZouChenyunfei.
+-And... Added Custom Sky shader Beta! Only works on Win10.
+
+v3.5.2 [10/03/2018 - 07/04/2018]
+-Updated to 1.2.13 oficial!
+-Separated new recipe book textures.
+
+v3.5.1 [19/02/2018]
+-Added alternative UI for HUD, Chat, Recipe Book and Creative!
+
+v3.5 [12/11/2018]
+-Updated to 1.2.10 oficial!
+    -Maybe it will work in 1.2.9, i think :/
+-Re-write some codes for UI.
+-Revamp compatibility for gamepad.
+-Replaced full creative "left tabs" to "top tabs"!
+    -For recipe book "left tabs" still appear.
+-Revamp chat screen.
+-Added disconnect screen.
+-Revamp player list panel for pause screen.
+-Added new variable for "_global_variables.json": "$enable_more_java_ui".
+
+v3.4 [09/01/2018]
+-Updated gamepad helper for modified UI.
+-Fixed furnace UI about UV flame.
+-Removed touch scroll box due bugs (classic UI).
+
+v3.3 [14/12/2017]
+-Updated to 1.2.6 official!
+-New button added for pause screen, but only will appear when you join a realm!
+-[Bonus] Added modified model for entity block "Bed". Making more easy to port RP faster!!
+
+v3.2 [11/11/2017 - 25/11/2017]
+-Updated to 1.2.5 official and 1.2.6 beta!
+-Added new full creative modified UI! (Still in progress about design)
+    -With touch mode support!
+-Removed some text in Start Screen.
+-But now added new texts in loading messages!!
+-Close button will not longer appear if you use mouse and keyboard, or XB1 controller.
+-Added new template for Java Edition container (Classic UI) resolution GUI about 2048x!!! (used by Java PVP players)
+-[Bonus] Added modified shaders, making water look like Java Edition (Only works for Win10 and XB1 users)!
+-[Bonus] Added alt TP which may contain basic UI like Java edition (returned with "Vanilla Enhanced: Core UI+" features)!
+
+v3.1 [22/09/2017]
+-Updated to 1.2.1
+-Bug fixes:
+    -Progress screen:
+	-now added dialog factory in case if you want to download Resource Packs!
+    -Online Buttons and Skin panels for classic UI are now fixed with different size!!
+    -Pause screen:
+	-Added now button about server store.
+    -Re-modify inventory screen, crafting grid are now fixed.
+    -Written book now show properly locked edit box.
+-Added new textures:
+    -Boss bar for Classic UI!
+
+v3.0 [09/09/2017]
+-Updated to 1.2 Release!!
+-Added new container GUI texture: "ender_chest.png"
+    -And, with "shulker_box.png", changed panel size from [ 176, 166 ] to [ 176, 167 ].
+-Added new variables for modified UI in pocket users (with small resolution/screen).
+-Fixed some modified UI tweaks for touch mode.
+
+v3.0 Beta3 [04/09/2017]
+-Fixes for recipe screen UI:
+    -GUI texture for touch mode are now used for touch screen users!!
+    -Text edit box are now properly modified with offset text!
+-Recipe items and crafting cell grid in classic UI, highlight texture are now used from "ui_deluxe"!
+-Bug fixes for HD GUI template! (512x and 1024x),
+-Temporary disabled styled console UI: start, progress, death, in bed, sign and pause screen. For pocket/phone (with small resolution/screen) users.
+
+v3.0 Beta2 [03/09/2017]
+-Updated to 1.2.0.25 Beta
+-Added more templates for Java container (Classic UI) resolution GUI (512x and 1024x) again!!!
+    -More later will be added template for separated GUI textures pieces.
+-And reduced optimized .json line codes!! ;), but added more .json files.. :(
+-Improvement for modified Recipe book (Classic UI):
+    -Added toggle for add/hide recipe book panel, thanks Mojang to make it without bugs ^-^ /!!
+    -Improved cell grid textures!
+    -Container textures are now with 3 files, like "creative_inventory" files!!! ("textures/gui/container/recipe_book")
+-Improvement for modified Enchanting Table (Classic UI):
+    -Now have more rune text colors for hover and locked buttons, like Java Edition!!!
+    -Changed uv_size for dust textures to 16x16 base.
+-Removed Java Creative Inventory UI for some reason.
+
+v3.0 Beta1 [31/07/2017 - 09/08/2017]
+-Changed name from "Vanilla Enhanced: Core UI+" to "Vanilla Deluxe: Mixed UI+", because now combine/mix between Java and 4J Console UI design!
+-Updated to 1.2.0.7 Beta
+-Rewrite all .json codes again.
+-Remove support for icons and widgets textures.
+-Added new Start, Progress and Pause screen UI design, 4J Console Edition design is back for Core UI+!!!
+-Added texture support for recipe_book from Java edition 1.12.
+-Added some exclusive code for "_global_variables.json".
+-Modified HUD screen, some exclusive features will show in classic UI.
+-Now compartible with 1.9 java Brewing screen texture!
+-Possibly added an button for Inventory and Crafting screen to show or hide recipe book.
+
+v2.3 [12/07/2017]
+-Bug fixes about Classic UI HUD with touch mode.
+-Added new file for custom GUI Label colors, currently in progress.
+-Changes UI tweaks for "furnace.png" and "tabs.png".
+
+v2.2 [19/06/2017]
+-Added alternative creative UI! (From original PE/W10 UI)
+-Removed "gui.png" hotbar image for inventory button in hud.
+-And, in hud, changed inventory button alpha to "0.25".
+
+v2.1 [09/06/2017]
+-Bug fixes
+    -Chest, crafting, furnace, inventory and HUD screen!
+-Removed ui_texture_gui.png because affects pocket UI screens. Instead, added ui_texture_widgets.png to use PC buttons and hotbar with high resolutuion!
+-Added customized UI template for 1024x GUI!
+-Added new files for "textures/gui/enhanced" folder, creative scroll box!
+
+v2.0 [03/04/2017 - 02/06/2017]:
+-Upgrated to UI+, to customize gui texture as you want, include high resolution textures ;D
+-Added new container image "shulker_box.png"
+-Added UI support for 1.1!
+-Separated all container .json files.
+-Added Console check texture for some toggle options.
+-Modified 
+-Added Modified Sign screen!!!
+-Separated texture use for classic slider option, no longer use gui.png
+
+v1.3.1 [29/03/2017]:
+-Added classic/PC realms progress/loading bar, and, slider control!!
+-Added optimization for dirt background code! (just 1 code added xD)
+-Separated .json files for each tweak.
+-Moved modified textures files to "/textures/gui/enhanced".
+-Now, @cesargohanss2 now have officially permission to use my UI .json files, include "inventory containers"!! @PcGuiDevs Still can use my UI .json files ;)
+-More bug fixes!!
+
+v1.3 [28/02/2017 - 13/03/2017]:
+-New integration with members of @PcGuiDevs, for testing!!
+-Improves about containers.
+    -In creative UI is now added "remove item" in survival tab (Made with @DeathBuilders).
+    -Scroll box in creative UI may be visible in touch mode (Made with @DeathBuilders).
+-Chat screen is modified again. (Now made with @DeathBuilders).
+-Focus border use for button is back, but with new texture file called "focusBorderButton.png"
+-Added new container texture: "Village trading"!!, now like styled PC.
+-Added gladient in start, play, settings, and other screens with panorama, based like PC/Java.
+-Added new tweak for pause screen: show and hide player list toggle!!
+-Re-mod/write all ui .json files.
+-Added modified shader, clouds and water now will look like PC (for W10E/HLSL dx11 only), idea of SirZeus (@ghostzaiko) and Hawt Dawg Man (@DeathBuilders), it will be on mcpe too more later!!!
+-Added new file called "ui_common_pc.json", replacement of "ui_pc_container.json".
+-Added new MCPE logo!, now will look like W10E HD logo, thanks for idea of Keida-Kun (@cesargohanss2)!!
+
+v1.2 [11/01/2017]:
+-Bug fixes between Classic and Pocket UI profiles, now will use different textures.
+
+v1.1 [25/12/2016]:
+-Fixed horse screen about equipped chest.
+-Added more tweaks.
+
+v1.0 [20/12/2016]:
+-Added extra textures for customization:
+    -close_button_panel.png
+    -highlight.png
+    -screen_background.png
+-Close button in each inventory screen is moved to right.
+
+Pre [20/11/2016]:
+-In HUD
+    -Items and stack number in hotbar now is front of hotbar selector.
+-More Bug fixes.
+
+Beta3 [19/11/2016]:
+-Just bug fixes.
+
+Beta2 [11/11/2016 - 18/11/2016]:
+-Added PC container textures for more customization!!
+    -Include styled PC creative UI!
+-Modified progress screen, adding shadows in texts.
+
+Beta1 (Initial release) [1/11/2016 - 8/11/2016]:
+-Modified chat screen
+-Modified HUD:
+    -Hotbar is now 100% opacity.
+    -XP and boss bar now uses icon.png
+    -Added border for XP number, to look like PC!

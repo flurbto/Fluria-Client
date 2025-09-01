@@ -1,0 +1,7 @@
+Special Thanks:
+- AgentMindStorm for the compatibility and help of miscellaneous UI texts, even with tooltip textures.
+- ZouChenyunfei for compatibility and some texture features.
+- LupasPAH for the help of custom durability_bar.
+- Hawf-Human for helping me create the first features of the project.
+- melamed_tal for inspiration about UI design concepts.
+- abc555 for quick crafting UI data.

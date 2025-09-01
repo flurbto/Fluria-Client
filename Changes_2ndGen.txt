@@ -1,0 +1,274 @@
+v1.2.9 [12 September 2023]
+[Additions]
+[+] Added "The following keys are used with 'CTRL + ALT" options.
+[+] Added realms invitation screen.
+[+] Added fixed position for mob effect in HUD.
+[+] Added "$max_chat_messages_in_hud" in "_global_variables.jsom".
+[Removes]
+[-] Removed the "What is realms" panel in order to add "Join Realm" button directly in realms play screen.
+[Changes]
+[*] Updated player list screen, now It's like social interactions panel.
+[*] Updated title panel for credits screen.
+[*] Downloading files to enter the server now has a proper panel design (in desktop UI).
+[*] Fixed a bug where notification button in start screen were with wrong offset values.
+[*] Fixed a bug when you edit sign text, it appears as blank.
+
+v1.2.8 [17 July 2023] (1.20.10 and 1.20.20 beta/preview)
+[Changes]
+[*] Updated for v1.20.10 release and v1.20.20 preview versions. 
+[*] Recipe Book tabs are now fixed for recipe unlocks. 
+[*] Fixed a bug where jump and dash bar in HUD were incorrect offset values. 
+[*] Updated enchanting_table lapis overlay texture to match with smithing_table screen. 
+[*] Hover text panel now have the same behavior as default in touch mode. But it only affects in PvP and Mixed UI mode.
+
+v1.2.7 [12 June 2023] (1.20.0 and 1.20.10 beta/preview)
+[Additions]
+[+] Added recipe unlock toast panel, only for v1.20.10 beta/preview.
+[+] Added some modified textures for empty item slots.
+[+] Added Drop Place Mode for touch devices.
+[Changes]
+[*] Updated for v1.20.0 release and v1.20.10 preview versions.
+[*] Fixed an issue with selecting items on inventory screens while using touch devices.
+[*] Sign screen is now fixed in the desired version.
+[*] Changed the hud title text offset values to match Java Edition.
+[*] Fixed a bug where the stack count offset has incorrect values.
+[*] Updated Realms screen to match Java Edition v1.20.0.
+[*] Added the ability to send message in chat screen while using controller.
+
+v1.2.6 [07 May 2023] (1.19.80 and 1.20.0 beta/preview)
+[Additions]
+[+] Added more slider options for safezone screen, some options are available only on phones.
+[+] Added new title and edition textures for start_screen, from v1.20.0 Snapshot.
+[+] Added autocomplete buttons for command block screen, only visible in touch devices.
+[+] Added paste button for command block screen.
+[+] Added chat message duration option for beta/preview version.
+[Changes]
+[*] Updated for v1.19.80 and v1.20.0 preview versions.
+[*] Changed the design for Hanging Sign screen.
+[*] Fixed a bug where toast screen doesn't render correctly.
+[*] Fixed the sign panel offset to match Java Edition.
+[*] Main button default text color is now [ 1.0, 1.0, 1.0 ] value.
+[*] Now you can write with max 30 characters in friend finder text input.
+[*] Fixed visual bug about text inside a panel with "clips" enabled.
+[*] Fixed visual text bug in multiplayer screen, when using noto sans font (using patch).
+[*] Inventory button in HUD, Inventory Close button and toggle mode button now have "0.0" sound_volume value when click.
+[*] Chat touch buttons now appears even for normal players, but useless for some cases...
+[*] Main buttons offset position for Start, Pause, Options, Command Block, Death, and Sign is now 100% accurate!
+[*] Width for pause main buttons is now in value 204.
+[*] Command Block title is now "Set Console Command for Block".
+[*] And "Command Input" text is now "Console Command".
+
+v1.2.5 [19 March 2023] (1.19.70 and 1.19.80 beta/preview)
+[Additions]
+[+] Added Hanging Sign screen.
+[+] Added Smithing Table v2 screen.
+[+] Added local world items warning in play screen, only for beta/preview builds.
+[Removes]
+[-] The compatibility to use with other add-ons with custom craftring table UI, due visibility errors.
+[Changes]
+[*] Updated for v1.19.70 and v1.19.80 preview versions.
+[*] Fixed a bug where some items in furnace recipe book were wrong in the latest stable version.
+    Yes, again...
+[*] Fixed a bug where compass icon (item renderer) was a egg item in creative inventory screen.
+[*] Fixed a bug where Crafting Table UI doesn't appear in some cases.
+
+v1.2.4 [12 March 2023] (1.19.60)
+[Additions]
+[+] Added world folder name information, but only works on Andorid or Win10, and, if world icon is set.
+[+] Added new world create screen, from JE 1.19.4 Pre1, but only works on some Andorid devices...
+[+] Added "Mute Emote Chat" toggle in chat settings.
+[+] Added "ip_safety_dialog" screen.
+[Changes]
+[*] Updated for v1.19.60+ and preview versions.
+[*] Updated creative tabs size to match JE v1.19.3
+[*] Bug fixes for related tab icons in creative.
+[*] Updated options screen:
+	- Touch options has been updated.
+	- Added new option: Account.
+	- Added 2 new slider options, only in preview versions: Glint Speed, and, Glint Strength.
+[*] Purple border texture nineslice size is now fixed in this version.
+[*] Compass item renderer in inventory screen doesn't spin anymore in survival mode,
+    but still has the effect in creative mode.
+[*] Fixed a bug where some items in furnace recipe book were wrong in the latest stable version.
+[*] Animated ping loading in multiplayer section is now visible again.
+[*] Added new textures for slider controls, from JE v1.19.4 Pre1.
+[*] Modified some elements from recipe book panel, based on JE v1.19.4 Pre1.
+
+v1.2.3 [12/7/2022] (1.19.50 or later)
+[Additions]
+[+] Added Xbox friend finder screen.
+[+] Added Console Aspects compatibility, yay!
+[Changes]
+[*] Updated for v1.19.50.
+[*] Changed the name from Java UI to Desktop UI.
+[*] menu_background texture now has filled screen even if your safezone config is modified.
+[*] Fixed a bug where profile/general screen would show up first if you clicked the
+    "Options..." button on the main screen.
+[*] Changed tab icons in "creative_screen" to match JE v1.20 snapshots.
+[*] Bug fixes when using with Java Aspects v5.1.1.
+
+v1.2.2.1 [08/21/2022] (1.19.10 or later)
+[Changes]
+[*] Updted enchanting_table gui texture to match JE v1.19.2.
+[*] Added shadow for HUD texts: jukebox, tip, and actionbar, to match JE v1.19.2.
+[*] Updated tooltip controller textures, now it's 14px and 15px base.
+[*] In death_screen title now say "You Died!" instead "You died!.
+[*] Removed "§o" in enchanting hover texts in main buttons.
+
+v1.2.2 [07/17/2022] (1.19.10 Only)
+[Additions]
+[+] Added partial support for custom crafting UI from other add-ons.
+[Changes]
+[*] Updated for v1.19.10 Only.
+[*] Chat screen scrollbar is now positioned to right.
+[*] The recipe book tab icons offset is now fixed in case the desired tab is selected or not.
+[*] Updated language support: -zh_CN -zh_TW
+
+v1.2.1 [06/19/2022] (1.19 Wild Update Only)
+[Additions]
+[+] More language support: -ja_JP -ko_KR -pt_PT -pt_BR -uk_UA
+[+] Added Copy coordinates tools for chat screen, only enabled by creator settings. [1.19.10 Only]
+[+] Custom permission level dropdown control for realms player list.
+[+] Added reason message text for death screen. [1.19.10 Only]
+[+] Added creator settings screen, and some options from profile screen now have moved to desired screen.
+[+] Added tooltip message for darkness effect slider option and notification duration.
+[+] Added Hive Network UI support.
+[+] Added JE toast "in.ogg" sound.
+[+] Added Modal screens for Progress Screen.
+[Changes]
+[*] Updated for v1.19.0 Release and v1.19.10 Beta/Preview Only.
+[*] Changed Pack Icon design.
+[*] Start Screen will now be 90% accurate in layout like Java Edition.
+[*] Fixed a UI issue when the screen has base pixel height less than 216, especially adapted for mobile devices.
+[*] Touch inventory buttons (Close and quick place mode) size value now is 20x (before 16x).
+[*] Changed position coordinates text bg to match Java Edition Debug appearance.
+[*] Updated black button textures.
+[*] Added 1.19 new accessibility options.
+[*] The recipe book for 2x2 crafting now has a desired max page numbers.
+[*] Updated Chat Screen.
+[*] Updated Main Realms Screen and Realms World Slots to match Java Edition UI layout.
+[*] Updated safe zone menu screens, outside border now will be black background, while in game, will be screen background.
+[*] Replaced all UI label texts to desired global label control.
+[*] Made another revision for Sign Screen, Book Screen and Video options.
+[*] "Show Autosave Icon" option is now called "Autosave Indicator", only for supported languages.
+
+v1.2.0 [04/02/2022]
+[Additions]
+[+] Join Realm by Code Screen for Java UI
+[+] File Upload/Download progress Screen for Java UI
+[+] Quick trade button, just press the arrow to grab all at once.
+[+] Quick craft button for Stonecutter, just press the arrow to craft all at once.
+[+] Re-added the ability of the HUD be visible if opens inventory and other screens.
+    The cost of course is the opaque chat messages BG in chat_screen (no in HUD).
+[+] Added text BG for tooltip controller in HUD.
+[+] Auto place mode toggle, only for touch device.
+[+] Added Auto Save Text in HUD, only for Java UI.
+[+] Re-added the furnace recipe book concept, only for Java UI.
+    Now with new items for the latest version of Caves & Cliffs.
+[Changes]
+[*] Updated for v1.18.12.
+[*] Some related screen menus now have animations disabled even if "screen animation" is ON.
+[*] Fixed bug where chat messages in chat_screen were duplicated.
+[*] Changed default boss bar color from blue to white with custom color,
+    only affects Java UI and Mixed UI.
+[*] Fixed bug where "hud_tip_text" was visible forever.
+[*] Fixed bug where scroll box was not visible in permissions screen (in the right options panel).
+[*] The Y position of "hud_item_text" is now different when you are in survival mode or
+    in creative mode.
+[*] Fixed compatibility issue for Java Aspects Performance version.
+[*] Tabs in creative inventory now have sound disabled when clicking.
+[*] Main Inventory/Crafting recipe book grid items now has sound when you click the item you want to build.
+[*] Changed the layout for 3 buttons dialog UI template.
+[*] Changed layer of inventory UI panels to layer 10 while the dialog BG remains to layer 1.
+[*] The crafting recipe book panel no longer appears when you are in creative mode.
+[*] Updated and added new touch options for newest beta/preview version.
+[*] Fixed highlight slot image red for loom and trade v2.
+[*] Added book page options! (Finally)
+[*] screen_background texture has made changes from static to gradient.
+[*] Progress Screen BG for loading dimensions now will be as default, only affects Java UI.
+    (no more BG with netherrack/end stone or dirt with gradient).
+    Also, I have added the pre-background using "screen_background".
+[*] Difficulty option in game now is the option as dropdown, only in settings screen.
+[*] Re-added line spacing option for Chat, while keeping Java Edition's desired default spacing.
+
+v1.1.4  [02/10/2022]
+[Removes]
+[-] Removed dressing room and persona screen, due new UI update.
+    Until I make sure everything has the UI updated (from MC Bedrock original), then I'll work on the fixed UI.
+[Changes]
+[*] Updated for v1.18.10.
+[*] Some bug fixes related to content log errors.
+
+v1.1.3  [12/08/2021]
+[Removes]
+[-] Old World Generation Type due 1.18 update.
+[Changes]
+[*] Updated for v1.18.0 and for the latest Beta version.
+[*] Fixed UV values for GUI textures greater than 512x for creative bottom tabs.
+[*] Fixed black texts and added scroll panel for dialog template
+    but cost is left-aligning text.
+[*] Changed the text for boss bar to match Java Edition aspect.
+    > Also to make fully compatible for AgentMindStorm's Java Aspects v5.0.0!
+
+v1.1.2  [11/06/2021]
+[Additions]
+[+] Toast Screen for Java UI
+[+] Achievement Button for start_screen.
+[+] Full comaptibility for AgentMindStorm's Java Aspects v5.0.0 Beta!
+[Changes]
+[*] The previous design for dressing room and person has been returned, but they are still improved.
+[*] Added the ability to edit worlds/servers and entering the Realms Feed screen when using the controller.
+        Press the "X" Button if you are using Xbox One/Series, Nintendo Switch Pro Controller/Joycons, or generic Controller.
+        Press the "▢" Button if you are using PlayStation Dualshock 4 or Dualsense Controller.
+[*] Visual bug fixes for scroll box.
+
+v1.1.0  [10/31/2021]
+[Additions]
+[+] Realms Setting for Java UI
+[Changes]
+[*] The Java UI design is now fixed to look as similar and accurate as possible.
+[*] Bug fixes HUD Screen UI codes.
+[*] The size of the player renderer in the HUD is now fixed based on the device you are using.
+[*] Chat UI design has been fixed to look like Original for Mixed UI and PvP UI
+
+v1.0.4  [09/30/2021]
+[Additions]
+[+] Dialog Screens template!
+[Changes]
+[*] Updated for v1.17.30 and for the latest Beta version.
+[*] Chat messages position now will have by default (top_left) when you use Mobile device, even in Java UI.
+[*] Removed jukebox text BG in Mixed UI and PvP UI, due Galaxite server incompatibility.
+
+v1.0.3  [08/14/2021]
+[Changes]
+[*] Added compatibility for Beta 1.17.30.21, fixing some bugs that don't allow you to play.
+
+v1.0.2 [07/24/2021]
+[Additions]
+[+] Profile Screen with Character Editor is now back again!
+[+] Corner mode for Structure Block (It works).
+[Removes]
+[-] 3D Export mode for Structure Block, but you can still export and save files in the "Save" mode pressing the "+" button.
+[Changes]
+[*] Bug fixes for HUD screen.
+[*] Updated UI for Structure Block.
+[*] Updated Hive Server HUD support.
+
+v1.0.0 (The New Beginning Update) [05/27/2021]
+[Removes]
+[-] Profile Screen with Character Editor. (Will be added later).
+[-] Invitational Screen.
+[-] Realms Settings
+[-] Compatibility for AgentMindStorm's Music+/Music Player UI Lite Resource Pack. (Will be added later).
+[-] Compatibility for Fate UI for Windows 10. (Will be added later).
+[-] Automatic adjustment for HD GUI Textures due Render Dragon visual issues.
+[Changes]
+[*] HUD Screen now has fully compatible with modified scoreboard sidebar from other resource packs.
+[*] RTX options are now visible only if you are on your Windows 10 computer. I did it so that you
+    wouldn't feel bad if you use your mobile device. :(
+    > However, if you are on your Windows 10 computer, you must have a dedicated graphics card installed to use these options.
+[*] Fixed the issue with "Add Server" button.
+[*] Fixed visual bugs for main buttons (In Windows 10 with Render dragon).
+[*] Every dropdown options are now replaced by simple toggles.
+[*] For the most important thing: the text of Log errors at the top is no longer displayed if you have activated
+    the Log options in Profile, because everything is fixed and optimized for testing with other Add-Ons/Resource Packs! ;D
